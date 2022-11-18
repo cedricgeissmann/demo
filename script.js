@@ -60,7 +60,6 @@ function spawnItem() {
   item.setAttribute("cy", 20 * Math.random() + 80)
   item.setAttribute("r", 2)
   item.setAttribute("fill", "black")
-  item.setAttribute("class", "item")
   document.querySelector("svg").appendChild(item)
 }
 
